@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(2, 35, 72);
+    color: rgb(254, 204, 128);
+    position: relative;
+    top: 25px;
+    font-family: Tahoma, Arial, 'Segoe UI', 'Noto Naskh Arabic', sans-serif;
+    
+}
+
+p{
+    font-size: 1.5em;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    border-color:rgb(254, 204, 128); 
+}
+
+#credits {
+    font-size: 0.85em;
+    width: 500px;
+    position: fixed;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+}
+#credits #contact{
+    color: inherit;
+    text-decoration: none;
+    margin: 0 20px 0 5px;
+}
+#credits #about{
+    color: inherit;
+    text-decoration: none;
+    margin: 0 20px 0 5px;
+}
+#credits a{
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+}
+#credits a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+#credits a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+#games{
+    width: 1000px;
+    height: 250px;
+    position: relative;
+    left: 15%;
+    top: 20px;
+}
+
+.game{
+    position: relative;
+    top: 0px;
+    background-color: rgb(254, 204, 128);
+    float: left;
+    width: 240px;
+    height: 240px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: -5px 5px 5px rgb(253, 142, 18);
+    transition: all 0.5s ease;
+}
+
+.game:hover{
+    box-shadow: -2px 5px 10px rgb(253, 142, 18);
+    top: -10px;
+}
+
+a .game{
+    color: rgb(2, 35, 72);
+    text-decoration: none;
+}
+
+a:hover .game {
+    color: rgb(2, 35, 72);
+    text-decoration: none;
+}
+
+a:visited .game {
+    color: rgb(2, 35, 72);
+    text-decoration: none;
+}
+
+img {
+    border-radius: 10px;
+}

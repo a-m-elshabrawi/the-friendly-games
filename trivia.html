@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <script src="JavaScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="trivia.css">
+    <title>Trivia Game</title>
+</head>
+
+<body onload="update_points()">
+    <div id="info">
+        <div id="turn">
+
+        </div>
+
+        <div id="team1">
+
+        </div>
+        <br><br>
+        <div id="team2">
+
+        </div>
+        <br><br>
+        <a href="winner.html"><button value="end_game" onclick="end_game();" id="end">End Game</button></a>
+    </div>
+    <table border="3">
+        <tr>
+            <th>Marvel</th>
+            <th>Math</th>
+            <th>Football</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td><a href="question.html" id="11" onclick="removeLink(this.id); set_Qid(this.id);">10</a></td>
+            <td><a href="question.html" id="12" onclick="removeLink(this.id); set_Qid(this.id);">10</a></td>
+            <td><a href="question.html" id="13" onclick="removeLink(this.id); set_Qid(this.id);">10</a></td>
+            <td><a href="question.html" id="14" onclick="removeLink(this.id); set_Qid(this.id);">10</a></td>
+        </tr>
+        <tr>
+            <td><a href="question.html" id="21" onclick="removeLink(this.id); set_Qid(this.id);">20</a></td>
+            <td><a href="question.html" id="22" onclick="removeLink(this.id); set_Qid(this.id);">20</a></td>
+            <td><a href="question.html" id="23" onclick="removeLink(this.id); set_Qid(this.id);">20</a></td>
+            <td><a href="question.html" id="24" onclick="removeLink(this.id); set_Qid(this.id);">20</a></td>
+        </tr>
+        <tr>
+            <td><a href="question.html" id="31" onclick="removeLink(this.id); set_Qid(this.id);">30</a></td>
+            <td><a href="question.html" id="32" onclick="removeLink(this.id); set_Qid(this.id);">30</a></td>
+            <td><a href="question.html" id="33" onclick="removeLink(this.id); set_Qid(this.id);">30</a></td>
+            <td><a href="question.html" id="34" onclick="removeLink(this.id); set_Qid(this.id);">30</a></td>
+        </tr>
+        <tr>
+            <td><a href="question.html" id="41" onclick="removeLink(this.id); set_Qid(this.id);">40</a></td>
+            <td><a href="question.html" id="42" onclick="removeLink(this.id); set_Qid(this.id);">40</a></td>
+            <td><a href="question.html" id="43" onclick="removeLink(this.id); set_Qid(this.id);">40</a></td>
+            <td><a href="question.html" id="44" onclick="removeLink(this.id); set_Qid(this.id);">40</a></td>
+        </tr>
+    </table>
+</body>
+</html>

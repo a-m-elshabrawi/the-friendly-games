@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(2, 35, 72);
+    color: rgb(254, 204, 128);
+    position: relative;
+    top: 175px;
+    font-family: Tahoma, Arial, 'Segoe UI', 'Noto Naskh Arabic', sans-serif;
+    
+}
+
+p{
+    font-size: 1.5em;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    width: 77%;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 1.5em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr{
+    border-color:rgb(254, 204, 128); 
+}
+
+a {
+    color: inherit;
+}
+a:hover {
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+}

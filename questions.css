@@ -1,0 +1,133 @@
+body{
+    font-family: Tahoma, Arial, 'Segoe UI', 'Noto Naskh Arabic', sans-serif;
+    background-color: rgb(2, 35, 72);
+    color: rgb(254, 204, 128);
+    
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+hr{
+    border-color:rgb(254, 204, 128); 
+}
+
+img {
+    border-radius: 8px;
+}
+
+#q img {
+    max-width: 400px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+p{
+    font-size: 1.8em;
+    text-align: center;
+}
+
+#double_q{
+    display: none;
+}
+
+#q{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: lightblue;
+    color: rgb(2, 35, 72);
+    position: fixed;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%,-7%);
+    margin: 10px auto 10px auto;
+}
+
+#info {
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#answer{
+    width: 25%;
+    height: 55%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+
+#t1{
+    width: 45%;
+    position: relative;
+    left: 5%;
+    bottom: 5%;
+    
+   
+}
+#t2{
+    width: 45%;
+    position: relative;
+    left: 5%;
+    bottom: 5%;
+}
+
+#update_btn{
+    width: 91%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.25em;
+    background-color: lightblue;
+    color: rgb(2, 35, 72);
+    position: relative;
+    left: 5%;
+    bottom: 5%;
+    
+}
+
+#choices {
+    position: relative;
+    left: 10%;
+}
+
+#wild_space {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+#wild_space p{
+    line-height: 0.5em;
+    font-size: 1em;
+}
+
+#timer{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+#timer p{
+    line-height: 0.5em;
+    font-size: 1.5em;
+}

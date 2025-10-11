@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us</title>
+        <style>
+            body{
+                background-color: rgb(2, 35, 72);
+                color: rgb(254, 204, 128);
+                font-family: Tahoma, Arial, 'Segoe UI', 'Noto Naskh Arabic', sans-serif;
+            }
+
+            h1{
+                text-align: center;
+            }
+
+            hr{
+                border-color:rgb(254, 204, 128); 
+            } 
+            
+            a {
+                color: inherit;
+            }
+            a:hover {
+                color: inherit;
+            }
+            a:visited {
+                color: inherit;
+            } 
+
+            #MOC_in {
+                display: none;
+            }
+
+            #note{
+                position: absolute;
+                bottom: 0px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 0.85em;
+                text-align: center;
+            }
+
+        </style>
+        <script src="JavaScript.js"></script>
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <hr><hr>
+        <br>
+        <p>Please fill the form accordingly, and we will respond as soon as possible!</p>
+        <br>
+        <form>
+            <label>Name: </label> <input type="text">
+            <br><br>
+            <label>Desired means of contact: </label>
+            <input type="radio" name="MOC" value="email" onclick="show_email()">E-mail
+            <input type="radio" name="MOC" value="phone_#" onclick="show_phone()">Phone Number
+            <br><br>
+            <label id="MOC_out"></label><span id="MOC_in"> <input type="text"></span>
+            <br><br>
+            <label>please write your suggestion/complain:</label><br>
+            <textarea name="feedback" rows="10" cols="40" placeholder="write here:"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        <br>
+        <a href="index.html">Go Back</a>
+        <p id="note">Note: this is just a dummy form, no data is recorded or sent anywhere</p>
+    </body>
+</html>

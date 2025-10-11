@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <script src="JavaScript.js"></script>
+        <link rel="stylesheet" type="text/css" href="questions.css">
+        <title id="title"></title>
+    </head>
+    <body onload="update_info();">
+        <h1 id="category"></h1>
+        <h2 id="points"></h2>
+        <div id="timer"></div>
+        <hr><hr>
+        <br>
+        <div id="q">
+            <p id="QQ"></p>
+            <img id="img">
+        </div>
+
+        <div id="info">
+            <div id="turn">
+
+            </div>
+            <div id="help">
+                <div id="wild_space">
+
+                </div>
+            </div>
+        </div>
+
+        <button value="Show Answer!" onclick="show_answer()">Show Answer!</button>
+
+        <div id="answer">
+            <p>The correct answer is:</p>
+            <p id="AA"></p>
+        
+
+            <div id="who">
+                <p>Who answered?</p>
+                <form>
+                    <div id="choices">
+                        <input type="radio" name="upd8" value="t1" id="team1"><label id="t1"></label> <br>
+                        <input type="radio" name="upd8" value="t2" id="team2"><label id="t2"></label> <br>
+                        <input type="radio" name="upd8" value="no one" id="team?"><label id="no"></label> <br><br>
+                    </div>
+                    <input type="button" value="Update Score & Next Question" id="update_btn" onclick="update_score()">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background-color: rgb(2, 35, 72);
+                color: rgb(254, 204, 128);
+                font-family: Tahoma, Arial, 'Segoe UI', 'Noto Naskh Arabic', sans-serif;
+                
+            }
+
+            p{
+                text-align: center;
+                font-size: 2em;
+            }
+
+            #winner{
+                position: fixed;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+
+            #buttons{
+                position: fixed;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+
+            button {
+                border-radius: 10px;
+                padding: 10px;
+                font-size: 1.5em;
+                background-color: lightblue;
+                color: rgb(2, 35, 72);
+            }
+        </style>
+        <script src="JavaScript.js"></script>
+        <title>Winner Winner!</title>
+    </head>
+    <body onload="end_game()">
+        <div id="winner">
+            
+        </div>
+        <div id="buttons">
+            <a href="trivia.html"><button onclick="start();">Restart The Game</button></a>
+            <a href="index.html"><button>Go Home</button></a>
+        </div>
+    </body>
+</html>
